@@ -11,7 +11,5 @@ A simple FastAPI application for testing purposes with directory listing functio
 
 ## Setup
 
-### Prerequisites
-- Python 3.7+
 - pip
 
