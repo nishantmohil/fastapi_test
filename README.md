@@ -95,24 +95,3 @@ Directory listing endpoints return JSON with the following structure:
   ]
 }
 ```
-
-## Error Handling
-
-The API handles various error scenarios:
-- **404**: Path does not exist
-- **400**: Path is not a directory
-- **403**: Permission denied
-- **500**: Server error
-
-## Interactive API Documentation
-
-Once the server is running, you can access:
-- **Swagger UI**: `http://localhost:8000/docs`
-- **ReDoc**: `http://localhost:8000/redoc`
-
-## Testing
-
-You can test the endpoints using:
-- **curl**: `curl http://localhost:8000/directory`
-- **Browser**: Navigate to `http://localhost:8000/docs` for interactive testing
-- **Postman** or any other API testing tool
